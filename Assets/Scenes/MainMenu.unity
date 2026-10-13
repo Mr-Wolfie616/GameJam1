@@ -372,13 +372,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 775751127}
   m_HandleRect: {fileID: 235809357}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.75
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1975949304}
+        m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
+        m_MethodName: SetSFXVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &138803057
 GameObject:
   m_ObjectHideFlags: 0
@@ -3403,13 +3415,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 148790684}
   m_HandleRect: {fileID: 1673885941}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.75
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1975949304}
+        m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
+        m_MethodName: SetMusicVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1975949301
 GameObject:
   m_ObjectHideFlags: 0
@@ -3480,8 +3504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47bfa55c811f1641900c41fa3ffb2df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  musicSlider: {fileID: 0}
-  SFXSlider: {fileID: 0}
+  musicSlider: {fileID: 1886047673}
+  SFXSlider: {fileID: 115683791}
+  mainMixer: {fileID: 24100000, guid: 33b4a59181af4014faa694704e0912d3, type: 2}
 --- !u!1 &2074815257
 GameObject:
   m_ObjectHideFlags: 0
