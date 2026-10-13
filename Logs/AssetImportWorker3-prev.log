@@ -1,22 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.26f1 (de8167e7440c) revision 14582119'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32487 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-burro" at "2026-10-13T13:04:54.736317Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-burro" at "2026-10-13T13:07:45.8178961Z"
 Process architecture: x64
-Date: 2026-10-13T13:04:54Z
+Date: 2026-10-13T13:07:45Z
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8212, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              b287c0f372be46629b830ea4e00b1bc8
+  Session Id:              e13d6cd9ffa8443fb7ec154e713f1935
   Correlation Id:          79112d6b1d216a71882d272744231171
-  External correlation Id: 2106518274259503944
+  External correlation Id: 7749441372861389812
   Machine Id:              /AoYNkdfWhEW6aEX4+ve8N0nT64=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-burro" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-burro-notifications" at "2026-10-13T13:04:54.8203382Z"
-[Licensing::Module] Licensing Background thread has ended after 0.08s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-burro" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-burro-notifications" at "2026-10-13T13:07:45.9317501Z"
+[Licensing::Module] Licensing Background thread has ended after 0.11s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.26f1\Editor\Unity.exe
@@ -30,9 +30,9 @@ C:/Users/burro/Documents/GitHub/GameJam1
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-64586
+58200
 -parentPid
-16340
+8720
 -analyticsCloudUserId
 5772932191386
 -analyticsLocalProjectId
@@ -43,8 +43,6 @@ Logs/AssetImportWorker3.log
 5c62f7b8b88bac3961969a238ba94a7a56c7a6b4
 -cbmMachineId
 /AoYNkdfWhEW6aEX4+ve8N0nT64=
--licensingIpc
-LicenseClient-burro
 -job-worker-count
 7
 -background-job-worker-count
@@ -91,12 +89,12 @@ C:/Users/burro/Documents/GitHub/GameJam1
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [22572]  Target information:
+Player connection [16980]  Target information:
 
-Player connection [22572]  * "[IP] 172.30.63.236 [Port] 0 [Flags] 2 [Guid] 2643349474 [EditorId] 2643349474 [Version] 1048832 [Id] WindowsEditor(7,Mcflylaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16980]  * "[IP] 172.30.63.236 [Port] 0 [Flags] 2 [Guid] 3658974704 [EditorId] 3658974704 [Version] 1048832 [Id] WindowsEditor(7,Mcflylaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22572] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22572] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16980] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16980] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -108,7 +106,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.26f1 (de8167e7440c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -126,12 +124,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004557 seconds.
-- Loaded All Assemblies, in  0.705 seconds
+Registered in 0.006852 seconds.
+- Loaded All Assemblies, in  0.719 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -139,35 +137,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.599 seconds
-Domain Reload Profiling: 1294ms
-	BeginReloadAssembly (221ms)
+- Finished resetting the current domain, in  0.665 seconds
+Domain Reload Profiling: 1378ms
+	BeginReloadAssembly (222ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (66ms)
+	RebuildCommonClasses (82ms)
 	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (301ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
 		LoadAssemblies (211ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (297ms)
-			TypeCache.Refresh (293ms)
-				TypeCache.ScanAssembly (266ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (284ms)
+				TypeCache.ScanAssembly (263ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (600ms)
+	FinalizeReload (667ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (532ms)
+		SetupLoadedEditorAssemblies (601ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (74ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (206ms)
-			ProcessInitializeOnLoadMethodAttributes (122ms)
+			InitializePlatformSupportModulesInManaged (89ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -182,114 +180,1193 @@ Domain Reload Profiling: 1294ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.490 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 1134ms
-	BeginReloadAssembly (305ms)
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1071ms
+	BeginReloadAssembly (277ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (40ms)
-		LoadAssemblies (191ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (54ms)
+		LoadAssemblies (169ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (10ms)
-			BuildScriptInfoCaches (7ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (658ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (160ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 426 unused Assets / (81.9 KB). Loaded Objects now: 1024.
-Memory consumption went from 76.1 MB to 76.0 MB.
-Total: 7.890400 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.033200 ms MarkObjects: 7.480600 ms  DeleteObjects: 0.223000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1384495.500204 seconds.
-  path: Assets/Room-Based Procedural Level Builder/Scripts/DungeonGenerator.cs
-  artifactKey: Guid(bbd93488db370094491f90e7e314d48a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Room-Based Procedural Level Builder/Scripts/DungeonGenerator.cs using Guid(bbd93488db370094491f90e7e314d48a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c2992352767e0ad45c7037d3916ea47') in 0.2139639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.420 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.491 seconds
-Domain Reload Profiling: 902ms
-	BeginReloadAssembly (252ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (57ms)
-		LoadAssemblies (162ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (45ms)
-			TypeCache.Refresh (27ms)
-				TypeCache.ScanAssembly (18ms)
-			BuildScriptInfoCaches (11ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (21ms)
+			BuildScriptInfoCaches (9ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (491ms)
+	FinalizeReload (634ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
+		SetupLoadedEditorAssemblies (468ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (118ms)
-			ProcessInitializeOnLoadAttributes (185ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 868 unused Assets / (126.6 KB). Loaded Objects now: 1471.
-Memory consumption went from 79.7 MB to 79.6 MB.
-Total: 6.963300 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.080500 ms MarkObjects: 6.304000 ms  DeleteObjects: 0.330300 ms)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 870 unused Assets / (204.2 KB). Loaded Objects now: 1469.
+Memory consumption went from 78.0 MB to 77.8 MB.
+Total: 7.808900 ms (FindLiveObjects: 0.168300 ms CreateObjectMapping: 0.049300 ms MarkObjects: 7.248800 ms  DeleteObjects: 0.341000 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1384666.664581 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Analytics/InputEditorAnalytics.cs
+  artifactKey: Guid(af8ecd25eda841f98ce3f6555888e43b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Analytics/InputEditorAnalytics.cs using Guid(af8ecd25eda841f98ce3f6555888e43b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '631bddc46cb4001e8f155e36116b911a') in 0.2127621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionAssetSearchProvider.cs
+  artifactKey: Guid(15ce6d517ffb81e44bc72545abacdc9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionAssetSearchProvider.cs using Guid(15ce6d517ffb81e44bc72545abacdc9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0b06921b7f5c3ecf142b6286ebbded5') in 0.0101059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/Observables/SelectObservable.cs
+  artifactKey: Guid(29a78370a46c4b59875764266185b105) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/Observables/SelectObservable.cs using Guid(29a78370a46c4b59875764266185b105) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f9ab54d26d1f77c2e0d88a89b11c880') in 0.0076294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/QuaternionControl.cs
+  artifactKey: Guid(3e9857b4032c493aa79e61db86f9e09b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/QuaternionControl.cs using Guid(3e9857b4032c493aa79e61db86f9e09b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8327c18747a5002f9a5605f6966a4d91') in 0.0085409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@2x.png
+  artifactKey: Guid(cae83450c8b18499c8c0239edf8bcc31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@2x.png using Guid(cae83450c8b18499c8c0239edf8bcc31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00ba65fe8be2977c64275955270bd775') in 0.1166547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/CompositeBindingPropertiesEditor.uxml
+  artifactKey: Guid(2bd2d0548382d58489e8c2999daf4139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/CompositeBindingPropertiesEditor.uxml using Guid(2bd2d0548382d58489e8c2999daf4139) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50e5561a792d7e149e616b9fce8c6294') in 0.1262394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/ParameterListView.cs
+  artifactKey: Guid(fb0e54f1ead384cd191254077544faf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/ParameterListView.cs using Guid(fb0e54f1ead384cd191254077544faf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7d2be566e339c10a88240bcdef4b975') in 0.0091341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/OnScreen
+  artifactKey: Guid(f027141a193544959a71baea4a57d3f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/OnScreen using Guid(f027141a193544959a71baea4a57d3f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1274a252fa18422a0996b82b44095fa1') in 0.0089263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Precompiled/FastKeyboard.cs
+  artifactKey: Guid(40cf321da8ee4fc428f65b23423528d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Precompiled/FastKeyboard.cs using Guid(40cf321da8ee4fc428f65b23423528d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '537dfa2117d48028007ef0b6facacb1a') in 0.0079253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Internal/SerializedPropertyHelpers.cs
+  artifactKey: Guid(e22caa7f1befe4d4db80921ba3cdabdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Internal/SerializedPropertyHelpers.cs using Guid(e22caa7f1befe4d4db80921ba3cdabdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca493dfe04c62237d444c6475ac2c28d') in 0.0081033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Add Binding@3x.png
+  artifactKey: Guid(ca933a91c81734ddd88b17c8481ec1e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Add Binding@3x.png using Guid(ca933a91c81734ddd88b17c8481ec1e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e124377a898ad23ea69bda4aecc00cf') in 0.0161066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/JsonParser.cs
+  artifactKey: Guid(9e082355c53c54d19a09c1d4f7629360) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/JsonParser.cs using Guid(9e082355c53c54d19a09c1d4f7629360) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '549d6a1faf4c55143a0b3299b1327173') in 0.0079106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/TouchPhaseControl.cs
+  artifactKey: Guid(2e3ecb5c3d351df489bd05ac1d820a6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/TouchPhaseControl.cs using Guid(2e3ecb5c3d351df489bd05ac1d820a6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1272d1a3cc7baab5016e29335be9e52') in 0.0084498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionImporter.cs
+  artifactKey: Guid(8404be70184654265930450def6a9037) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetImporter/InputActionImporter.cs using Guid(8404be70184654265930450def6a9037) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '154fc3e027959321b8e48205f6c28302') in 0.0073784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/InputDevice.cs
+  artifactKey: Guid(250f0b2038f8466aaa09814a4b1c5f46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/InputDevice.cs using Guid(250f0b2038f8466aaa09814a4b1c5f46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '321c17b34ce347161330bb3869d40842') in 0.0082325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/PlayerInput/PlayerJoinBehavior.cs
+  artifactKey: Guid(86b230bdbb8ce487882861a17e6d2bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/PlayerInput/PlayerJoinBehavior.cs using Guid(86b230bdbb8ce487882861a17e6d2bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8d54ca407ce5894e991baaf16ca740e') in 0.0078906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Packages/com.unity.inputsystem/DocCodeSamples.Tests/GamepadHapticsExample.cs
+  artifactKey: Guid(3bbc200178984676a2dcb977a2fe3bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/DocCodeSamples.Tests/GamepadHapticsExample.cs using Guid(3bbc200178984676a2dcb977a2fe3bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee360577eafa41b00b1f081d9d012c86') in 0.0077321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Pen.png
+  artifactKey: Guid(ea8b7319643924985a9ee4ca18b8db59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Pen.png using Guid(ea8b7319643924985a9ee4ca18b8db59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be8553fc1eea18cb51bfa94b692c31a7') in 0.012499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/VirtualMouseInput.cs
+  artifactKey: Guid(424b6720ff5999446843ba414e58a907) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/VirtualMouseInput.cs using Guid(424b6720ff5999446843ba414e58a907) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8168b6e27134a23ce8d356408337777') in 0.008433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad.png
+  artifactKey: Guid(e76f0489d4db34a2fbc3532e07f2848a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad.png using Guid(e76f0489d4db34a2fbc3532e07f2848a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f14545f22b55afb1c4d1889cc4e57bc') in 0.0168604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/Observables/SelectManyObservable.cs
+  artifactKey: Guid(3e12c30fe9774947a81ce7eb7054cfb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/Observables/SelectManyObservable.cs using Guid(3e12c30fe9774947a81ce7eb7054cfb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5896c2f17cbb0a445e4efa2431ba4ba') in 0.0078727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Users/InputUserPairingOptions.cs
+  artifactKey: Guid(33c4f889206d84e84b124cc6f7367963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Users/InputUserPairingOptions.cs using Guid(33c4f889206d84e84b124cc6f7367963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '618736119bdd64b4aa727d65839a570e') in 0.0077568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Events/StateEvent.cs
+  artifactKey: Guid(d9ce7842660d4bf89a86f378ecffb8f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Events/StateEvent.cs using Guid(d9ce7842660d4bf89a86f378ecffb8f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb93b4f1681e5ef5badfbf88b0f703e3') in 0.0078071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources/personal/foldoutBackground.png
+  artifactKey: Guid(5ab69704aa4984b49bc426da72fabbed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources/personal/foldoutBackground.png using Guid(5ab69704aa4984b49bc426da72fabbed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a59daa97bb6c12e67f6f7382f403ade') in 0.0153365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionTreeViewItems.cs
+  artifactKey: Guid(76d591911f4ae4f62953b13f6ff50429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/InputActionTreeViewItems.cs using Guid(76d591911f4ae4f62953b13f6ff50429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc879211cd4a66d783399b0faaca3478') in 0.0090246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Packages/com.unity.inputsystem
+  artifactKey: Guid(11a598aec246d8bb37638d627f4c6f61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem using Guid(11a598aec246d8bb37638d627f4c6f61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dceae5dae16178ecb8694a89438826d7') in 0.007821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/SerializedInputAction.cs
+  artifactKey: Guid(fcffff3de13f4304a98bb50b1222399a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/SerializedInputAction.cs using Guid(fcffff3de13f4304a98bb50b1222399a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90792d217e18bc5474d0e98d64e041be') in 0.0088352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/ContextMenu.cs
+  artifactKey: Guid(989e6ef705a83455c81a5d0a22910406) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/ContextMenu.cs using Guid(989e6ef705a83455c81a5d0a22910406) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4072c4dfe4ce55a9fc341f358fff0eec') in 0.0085898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@2x.png
+  artifactKey: Guid(153c8e15f7f6c452ca50f6795813ed39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@2x.png using Guid(153c8e15f7f6c452ca50f6795813ed39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a33dac73b9ecd8b6bca2d634fe1625c') in 0.0194297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/DoubleControl.cs
+  artifactKey: Guid(72251f49d44478b4c93462938d7ce4cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/DoubleControl.cs using Guid(72251f49d44478b4c93462938d7ce4cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0632995dbe65075601a149c25bf0f6c') in 0.0076621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources/personal/propertiesBackground.png
+  artifactKey: Guid(aa4c2360f910d46f497f75b4b6677358) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources/personal/propertiesBackground.png using Guid(aa4c2360f910d46f497f75b4b6677358) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e68c1ca8e0f4e4a38a4832fd8d508aa4') in 0.0147722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.343211 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/CollectionViewSelectionChangeFilter.cs
+  artifactKey: Guid(36e7567d9504499a8bbe97595096de5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/CollectionViewSelectionChangeFilter.cs using Guid(36e7567d9504499a8bbe97595096de5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad95110c1cd7b525f04e0209ea1513a0') in 0.0183176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Precompiled/FastMouse.cs
+  artifactKey: Guid(6a390ac9b9af0fb49b702bae14eaed84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Precompiled/FastMouse.cs using Guid(6a390ac9b9af0fb49b702bae14eaed84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '542969e49b7bc68eb0c653527f692005') in 0.0076544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime
+  artifactKey: Guid(432210e3fbc6542d4b9770ed939fc0a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime using Guid(432210e3fbc6542d4b9770ed939fc0a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67806411e0760d86d4fa4c5198a87718') in 0.0079916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Touchscreen.cs
+  artifactKey: Guid(ade00164ed474391ba591b362f77149f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Touchscreen.cs using Guid(ade00164ed474391ba591b362f77149f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1cf205351bdc16d3199597af7491416') in 0.0093885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Mouse.png
+  artifactKey: Guid(264ffc05d7d2841d5a6065854b6282ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Mouse.png using Guid(264ffc05d7d2841d5a6065854b6282ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f92189c7fe660ad20990a715024cf74') in 0.0156729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/QueryUserIdCommand.cs
+  artifactKey: Guid(6c784a1510a154625903484b84c8ddaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/QueryUserIdCommand.cs using Guid(6c784a1510a154625903484b84c8ddaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f671e487ddf927a423410b2e6890c13e') in 0.0077643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/HID
+  artifactKey: Guid(e38cdda355b6f4f8fb66876f964f570e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/HID using Guid(e38cdda355b6f4f8fb66876f964f570e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7485c12235e23d622e24af82e8370044') in 0.0055605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@3x.png
+  artifactKey: Guid(9e882b58df0964f5b90ff99cb481ee79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@3x.png using Guid(9e882b58df0964f5b90ff99cb481ee79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b80817d84803044163d394e65db857e') in 0.0186161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Position@4x.png
+  artifactKey: Guid(c998b283038914e699477f514ecb31ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Position@4x.png using Guid(c998b283038914e699477f514ecb31ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd8bc0b92d92bce574945d91c5d3cade') in 0.0126446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/Composites
+  artifactKey: Guid(6adbf65a53ff9b04990c2116b3e4d5b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/Composites using Guid(6adbf65a53ff9b04990c2116b3e4d5b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b5ba55237a46d1efdb0b6408432d07d') in 0.0086813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/RequestSyncCommand.cs
+  artifactKey: Guid(b0c637405fa4842cc92e389df8729bc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/RequestSyncCommand.cs using Guid(b0c637405fa4842cc92e389df8729bc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91f7818fe7dc286118d80adba8e0fbdb') in 0.00614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionMap.cs
+  artifactKey: Guid(87354c477cc09c441b957b3aae10d813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionMap.cs using Guid(87354c477cc09c441b957b3aae10d813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac50b46503e16abf2194c031ea8e802a') in 0.0102016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/AxisControl.cs
+  artifactKey: Guid(551b733126e34f71a7294051cf2bfc0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/AxisControl.cs using Guid(551b733126e34f71a7294051cf2bfc0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3154491736ec0321300ec81f47e4f57c') in 0.0084357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/DropManipulator.cs
+  artifactKey: Guid(b52a4b3b22334b02a4d22d942a479be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/DropManipulator.cs using Guid(b52a4b3b22334b02a4d22d942a479be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff65b81887c54f3dba7015a063d350a3') in 0.0076561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/Composites/AxisComposite.cs
+  artifactKey: Guid(61fdc882d66f0f34d90450c001c0078e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/Composites/AxisComposite.cs using Guid(61fdc882d66f0f34d90450c001c0078e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c15676e815155c67032807b3aca1ade3') in 0.0157641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Dpad@4x.png
+  artifactKey: Guid(41edf25d451a744e6ad1172a677603bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Dpad@4x.png using Guid(41edf25d451a744e6ad1172a677603bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78ba48986ff1ce72c5c300e20dc14a65') in 0.0151647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/CompositePartBindingPropertiesView.cs
+  artifactKey: Guid(1d3813199fcb56b45b916ac51d58dc80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/CompositePartBindingPropertiesView.cs using Guid(1d3813199fcb56b45b916ac51d58dc80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac858169de242c365400ed457fc4fd12') in 0.0073584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/InputControlLayoutAttribute.cs
+  artifactKey: Guid(b5256e0d1ebecc84d98a4001ab63d5b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/InputControlLayoutAttribute.cs using Guid(b5256e0d1ebecc84d98a4001ab63d5b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c04aa506d9004ae284d9517e46159ec') in 0.0066481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Touch.png
+  artifactKey: Guid(588041e6f0efb43489b38677e0aac58f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Touch.png using Guid(588041e6f0efb43489b38677e0aac58f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc1be8be039185e7ec78507b27424662') in 0.0171983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301838 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/iOS/InputSettingsiOS.cs
+  artifactKey: Guid(d08e8dbcaeef59a4c9f04d8448f179eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/iOS/InputSettingsiOS.cs using Guid(d08e8dbcaeef59a4c9f04d8448f179eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e99e93ea043d26bf81520f6ba4df6196') in 0.0176346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/ViewStateCollection.cs
+  artifactKey: Guid(cdc588cfee2e9a84a9d748fb7314daff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/ViewStateCollection.cs using Guid(cdc588cfee2e9a84a9d748fb7314daff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '413a560d054661fec44196303c83a2f6') in 0.0098585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/BindingPropertiesView.cs
+  artifactKey: Guid(9c9510ff4a99bf84c9277bf2182a67d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/BindingPropertiesView.cs using Guid(9c9510ff4a99bf84c9277bf2182a67d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b41df72b37acfa41f06a095f5cf088b5') in 0.0056131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Users/InputUserChange.cs
+  artifactKey: Guid(ce1664b057efc40759e0da41d54e3e4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Users/InputUserChange.cs using Guid(ce1664b057efc40759e0da41d54e3e4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01699d97b5aedd4482407265113d0ff3') in 0.0072859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities
+  artifactKey: Guid(51e828593aae48cdbee6e9ae0ec20e5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities using Guid(51e828593aae48cdbee6e9ae0ec20e5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72aafd1f4ad40e1a8575b08100f26586') in 0.0063394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Mouse.png
+  artifactKey: Guid(9eb2b64988cb1443cab6da5dc5300d1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Mouse.png using Guid(9eb2b64988cb1443cab6da5dc5300d1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1d51aa7e9952fdd7587ef386048f697') in 0.0174262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Devices/OpenVR.cs
+  artifactKey: Guid(8a2cdc9fdde66bb49afa0763a7557ff9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Devices/OpenVR.cs using Guid(8a2cdc9fdde66bb49afa0763a7557ff9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09528f168660535ed26a34daebb12811') in 0.0083085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/OnScreen/OnScreenSupport.cs
+  artifactKey: Guid(74405005f3013c2498103a79211ba93b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/OnScreen/OnScreenSupport.cs using Guid(74405005f3013c2498103a79211ba93b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4542800eb0866265bffde0c6a7ac02d') in 0.0058675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/Observables/TakeNObservable.cs
+  artifactKey: Guid(25881642ba784356b23ef34898fdc690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/Observables/TakeNObservable.cs using Guid(25881642ba784356b23ef34898fdc690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '578a2f7c5550f366a5697f6ba127968a') in 0.0093064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/TrackedDeviceRaycaster.cs
+  artifactKey: Guid(afe3cda3e244f60419474164d6ba3b0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/TrackedDeviceRaycaster.cs using Guid(afe3cda3e244f60419474164d6ba3b0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '849d4c1dc6f2dac3bfcc3f555dc8b2f9') in 0.0062465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputAction.cs
+  artifactKey: Guid(cfe12f5319f74d9e8b0875e965ac280b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputAction.cs using Guid(cfe12f5319f74d9e8b0875e965ac280b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c99322cb13b3f2f51d9d4e217f8959d6') in 0.0096652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/OnScreen/UGUIOnScreenControlEditorUtils.cs
+  artifactKey: Guid(91a3b2b6adad844ed9b680b378d8485a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/OnScreen/UGUIOnScreenControlEditorUtils.cs using Guid(91a3b2b6adad844ed9b680b378d8485a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4f58cf2125d84da0c6b981f18272aab') in 0.0066078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Controls/Processors/StickDeadzoneProcessorEditor.cs
+  artifactKey: Guid(58a253233c6804f58adf86cfee510a72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Controls/Processors/StickDeadzoneProcessorEditor.cs using Guid(58a253233c6804f58adf86cfee510a72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bad7e492d711879a2cba46b110f1a0d2') in 0.0100891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/EnhancedTouch/EnhancedTouchSupport.cs
+  artifactKey: Guid(3cf42e49077e442fd8b9dc29c328d345) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/EnhancedTouch/EnhancedTouchSupport.cs using Guid(3cf42e49077e442fd8b9dc29c328d345) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56cf9d153fc5b78d94cf1227286b7262') in 0.0074123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/IInputActionCollection.cs
+  artifactKey: Guid(0e297b4219a224ba5bcb4f9293e26ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/IInputActionCollection.cs using Guid(0e297b4219a224ba5bcb4f9293e26ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fab2c9d6e2d667267f8963b1cf84e98') in 0.0077595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownState.cs
+  artifactKey: Guid(f61b0e35037644f37b6ac81513577c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownState.cs using Guid(f61b0e35037644f37b6ac81513577c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64e534635dfb2393d435228af5c927fb') in 0.0098919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views
+  artifactKey: Guid(2db76e4ad9537964994bd20263e1c379) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views using Guid(2db76e4ad9537964994bd20263e1c379) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '403699862b5f1b59664f7fa73ae397d1') in 0.0044787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionProperty.cs
+  artifactKey: Guid(0c43a6876f1eb4fdf8b9dc2fee926776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionProperty.cs using Guid(0c43a6876f1eb4fdf8b9dc2fee926776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a672301006d15ff61e0acada5ea045e') in 0.0065465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Analytics/InputComponentEditorAnalytic.cs
+  artifactKey: Guid(4b36e69515ff4a45be02062b5584e1a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Analytics/InputComponentEditorAnalytic.cs using Guid(4b36e69515ff4a45be02062b5584e1a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac2e7dfed57aacd675ede0b1736eacd7') in 0.0076584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputStateWindow.cs
+  artifactKey: Guid(d0821e88149544e9b53290bf15b8d100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Internal/InputStateWindow.cs using Guid(d0821e88149544e9b53290bf15b8d100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b0675faf6174babd2f97171a3b3c17f') in 0.0068178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/PlayerInput
+  artifactKey: Guid(95a3b96623aff409fad313b971f84743) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/PlayerInput using Guid(95a3b96623aff409fad313b971f84743) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95077272b1525ddefecff8c7747607c1') in 0.0071665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/OnScreen/OnScreenStickEditor.cs
+  artifactKey: Guid(839e0066c5f854ddda076a4ff2f80a7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/OnScreen/OnScreenStickEditor.cs using Guid(839e0066c5f854ddda076a4ff2f80a7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '062eeaf1d3821d5954923a2c5dccfc52') in 0.0082558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/WebGL/WebGLGamepad.cs
+  artifactKey: Guid(e78bab4d8055a47fd933966a032e34ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/WebGL/WebGLGamepad.cs using Guid(e78bab4d8055a47fd933966a032e34ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae7bb3d72d2ccd72e9492a689733262b') in 0.0070628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Steam/SteamSupport.cs
+  artifactKey: Guid(7bef150b341c4d0dbab3db81ccf2ea81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Steam/SteamSupport.cs using Guid(7bef150b341c4d0dbab3db81ccf2ea81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92a7362d3fa95ad6fc6baf97b6a83333') in 0.0070076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/DpadControl.cs
+  artifactKey: Guid(b00a605ae58d438baf0b80388b377972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/DpadControl.cs using Guid(b00a605ae58d438baf0b80388b377972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58ce97430d4359049b326eab4091ce11') in 0.0072806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/InputForUI/InputSystemForUI.asmdef
+  artifactKey: Guid(09dcc9c0126b6b34ab2a877b8f2277f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/InputForUI/InputSystemForUI.asmdef using Guid(09dcc9c0126b6b34ab2a877b8f2277f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6134ed65c30454b64536bdf6e86c0012') in 0.0121247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/DeviceSimulator
+  artifactKey: Guid(bd293de081caa442dae1595e4c7a6773) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/DeviceSimulator using Guid(bd293de081caa442dae1595e4c7a6773) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ccbeb30ec0936b7a91c00d013b8978c') in 0.0052407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Pointer.cs
+  artifactKey: Guid(d806525c0444400588f5a7800297b7b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Pointer.cs using Guid(d806525c0444400588f5a7800297b7b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31104cfcc668eca5395174548f9a0008') in 0.0073229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/CompositeBindingPropertiesView.cs
+  artifactKey: Guid(2bd61b5c763f7444e9a5aa3c7623f60b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/CompositeBindingPropertiesView.cs using Guid(2bd61b5c763f7444e9a5aa3c7623f60b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43b53c6634daecbe98c074d913896e57') in 0.0073643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/TrackedDevice.cs
+  artifactKey: Guid(d4a83784946017a4182f41a54d468481) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/TrackedDevice.cs using Guid(d4a83784946017a4182f41a54d468481) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f436533e9fc05070af31a04a8bec130e') in 0.0083135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputInteractionContext.cs
+  artifactKey: Guid(12826de7f47b478428a9941b5fb5adcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputInteractionContext.cs using Guid(12826de7f47b478428a9941b5fb5adcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '721ce691ce0ab76e3a4b45ba5d9a11b9') in 0.00635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/SerializedInputActionMap.cs
+  artifactKey: Guid(d92ba71f7bef7074eb5d8753a9d09521) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/SerializedInputActionMap.cs using Guid(d92ba71f7bef7074eb5d8753a9d09521) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '790ddd9db30bfcdf4eb2ef5ddd3f358c') in 0.0074847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers
+  artifactKey: Guid(726294051bc6c426e886d72ea4702f21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers using Guid(726294051bc6c426e886d72ea4702f21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f47adb25b886f30482a6553c05505248') in 0.0066039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Events/DeviceRemoveEvent.cs
+  artifactKey: Guid(9af5cfc54cf34eb1ac27c9c90a9a7440) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Events/DeviceRemoveEvent.cs using Guid(9af5cfc54cf34eb1ac27c9c90a9a7440) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9851416c093a82805383db3bc6c4c554') in 0.0073262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Packages/com.unity.inputsystem/Tests/TestFixture/AssemblyInfo.cs
+  artifactKey: Guid(674b72d5417404b9eac446749e3e2d5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/Tests/TestFixture/AssemblyInfo.cs using Guid(674b72d5417404b9eac446749e3e2d5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b6f274e724477ea01f4ce1d3dbee744') in 0.0058806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199910 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/NameAndParametersListView.cs
+  artifactKey: Guid(11330b6eb30fdb54fa20d0da9f0d60a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/NameAndParametersListView.cs using Guid(11330b6eb30fdb54fa20d0da9f0d60a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdabb7b1f37bd9999af0aa7f1192486f') in 0.0142833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Controls/Processors/AxisDeadzoneProcessorEditor.cs
+  artifactKey: Guid(9744e96a967da4f29909add206a6b27f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Controls/Processors/AxisDeadzoneProcessorEditor.cs using Guid(9744e96a967da4f29909add206a6b27f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43fc533dafcc89c713c40b372c66f963') in 0.0063328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/InputSystemTestHooks.cs
+  artifactKey: Guid(1f95d379362f6c74ca1eb6368642199f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/InputSystemTestHooks.cs using Guid(1f95d379362f6c74ca1eb6368642199f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3634abb6fa19a37c49cad9e342e4f2d6') in 0.0090762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/Interactions/SlowTapInteraction.cs
+  artifactKey: Guid(3afbef7bebf197d43b2352b971a4e15f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/Interactions/SlowTapInteraction.cs using Guid(3afbef7bebf197d43b2352b971a4e15f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07fa0ad2d2261158491c2c6ea599b6ca') in 0.0087168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/IInputDeviceCommandInfo.cs
+  artifactKey: Guid(c2339479d3a44fcb902e62c60f0a05af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/IInputDeviceCommandInfo.cs using Guid(c2339479d3a44fcb902e62c60f0a05af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d5e61c9a231b323a0a64c80773a653a') in 0.0073199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/XRLayoutBuilder.cs
+  artifactKey: Guid(f06ed8c4023b8420784a262e45338aa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/XRLayoutBuilder.cs using Guid(f06ed8c4023b8420784a262e45338aa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cccf49b9be57545e81e0c3c9a2acff48') in 0.0081549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/XRSupport.cs
+  artifactKey: Guid(a9be5e04bc92741ccbe2c262bfaa517f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/XRSupport.cs using Guid(a9be5e04bc92741ccbe2c262bfaa517f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88fc4b2ef0dc5fa8027795cd63e995bf') in 0.0051928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Android/AndroidGameController.cs
+  artifactKey: Guid(a7c6472eb810ba445be34c69325e4fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Android/AndroidGameController.cs using Guid(a7c6472eb810ba445be34c69325e4fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cfd952a0329a94f1d72fe2655674bb8') in 0.0049579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@4x.png
+  artifactKey: Guid(de98baf415a2c4d7dbe0de74cb6e171c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Orientation@4x.png using Guid(de98baf415a2c4d7dbe0de74cb6e171c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac38bb265708e9290f315dd8cab1ca03') in 0.0136587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/InputAssetEditorDark.uss
+  artifactKey: Guid(cca9ce0c8554d5244930f14c21489ac1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/PackageResources/InputAssetEditorDark.uss using Guid(cca9ce0c8554d5244930f14c21489ac1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e893058c18d11a354e2bf6ab551ef803') in 0.0177009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Stick@2x.png
+  artifactKey: Guid(5d0b11389336d4b16b96f147c9f912e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Stick@2x.png using Guid(5d0b11389336d4b16b96f147c9f912e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bac496c67465ddf80780433d8a59c8ed') in 0.0120989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Switch
+  artifactKey: Guid(a27b7d2db78661c429e29911c09f8f4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Switch using Guid(a27b7d2db78661c429e29911c09f8f4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d7bb2dfbc75bd74fa661db5738c314e') in 0.0054494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionAssetDrawer.cs
+  artifactKey: Guid(9e0a885665a44db1adfaf0e3b9e9cda6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionAssetDrawer.cs using Guid(9e0a885665a44db1adfaf0e3b9e9cda6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b8fa278f7af6fdfec4da2317b693339') in 0.0054588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/EnableIMECompositionCommand.cs
+  artifactKey: Guid(9e0ea5a9f932f6541962b1bf7934f7c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/EnableIMECompositionCommand.cs using Guid(9e0ea5a9f932f6541962b1bf7934f7c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce402f9c2984b07ca1112a46fbebda85') in 0.0054068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Events
+  artifactKey: Guid(99f4ddb4a8fa4fcfa25917e64bcc6e8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Events using Guid(99f4ddb4a8fa4fcfa25917e64bcc6e8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bd6cd9bcef0a6ab9e19a24f15640b36') in 0.0056777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/QueryDimensionsCommand.cs
+  artifactKey: Guid(d8ce1fd8f845226439f6b4ee991c9f78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Commands/QueryDimensionsCommand.cs using Guid(d8ce1fd8f845226439f6b4ee991c9f78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6203287b776d175668e1c182b0946b66') in 0.0047663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Users
+  artifactKey: Guid(b102955bf08484d24b9122abab95b9fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/Users using Guid(b102955bf08484d24b9122abab95b9fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '546756f45bef56da6dc458e5baf85115') in 0.0049418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputBindingCompositeContext.cs
+  artifactKey: Guid(fbe76c3f0e980e6468b895ac1133c20d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputBindingCompositeContext.cs using Guid(fbe76c3f0e980e6468b895ac1133c20d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1257c806367cceeb5b357559457cb208') in 0.0071403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/FourCC.cs
+  artifactKey: Guid(ff1bc3762d8741ff8f40d54da690efb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Utilities/FourCC.cs using Guid(ff1bc3762d8741ff8f40d54da690efb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1e122e59b7df307c37cbc9fff73465c') in 0.0047662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/OnScreen/OnScreenControl.cs
+  artifactKey: Guid(92ae37f8da4c25141a0c43e136275e46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/OnScreen/OnScreenControl.cs using Guid(92ae37f8da4c25141a0c43e136275e46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5c8514ff50830ec11470e55600ebf43') in 0.006075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl@2x.png
+  artifactKey: Guid(62ce957ca99fe4fcba573a5b141eb113) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl@2x.png using Guid(62ce957ca99fe4fcba573a5b141eb113) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05e0d496b12f8e743d949baf834013c8') in 0.0138556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/MultiplayerEventSystem.cs
+  artifactKey: Guid(b16c6f78230fa4964a222622d8aae332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/UI/MultiplayerEventSystem.cs using Guid(b16c6f78230fa4964a222622d8aae332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17ae694ff582575ac803dd3af90edc85') in 0.0092338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Debugger/InputDeviceDebuggerWindow.cs
+  artifactKey: Guid(ea7d19a9cdd73486689f292cc9d38018) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Debugger/InputDeviceDebuggerWindow.cs using Guid(ea7d19a9cdd73486689f292cc9d38018) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5856bf7080b3e7133a522ef2a9788522') in 0.005683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/Processors/EditorWindowSpaceProcessor.cs
+  artifactKey: Guid(87ce818774f4c544882b249f32619300) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/Processors/EditorWindowSpaceProcessor.cs using Guid(87ce818774f4c544882b249f32619300) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8e2f3a9baca422785157e2555092cff') in 0.0064405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Position@2x.png
+  artifactKey: Guid(a3fa73829479e4b41965e749fcca7c12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Position@2x.png using Guid(a3fa73829479e4b41965e749fcca7c12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16960bbaab6366ff68d7d47f2e266d60') in 0.011578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR
+  artifactKey: Guid(097288e93d94f44438e9ef4dc93f7346) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR using Guid(097288e93d94f44438e9ef4dc93f7346) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d52272f43d02820d2ea29cbdc8cb33d') in 0.0048653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Analytics
+  artifactKey: Guid(d7fcb545eb7743c8bd27f341b51151dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Analytics using Guid(d7fcb545eb7743c8bd27f341b51151dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30f4695d1e1b0b76df143d8fb0bf3302') in 0.0041882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionType.cs
+  artifactKey: Guid(b21f8c6bf1fd94d1fb47907209b23367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputActionType.cs using Guid(b21f8c6bf1fd94d1fb47907209b23367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b16608263ff7fd0f00d3e0e778e0ac92') in 0.0074936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/IInputInteraction.cs
+  artifactKey: Guid(9e37175fb5b321444aa88a861f93360a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/IInputInteraction.cs using Guid(9e37175fb5b321444aa88a861f93360a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca9984f8c845a75c8cf917fb5604de11') in 0.0047246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Haptics/SendBufferedHapticsCommand.cs
+  artifactKey: Guid(e553fed0b97be3349aff36916eb6fefc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Haptics/SendBufferedHapticsCommand.cs using Guid(e553fed0b97be3349aff36916eb6fefc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd58fef325b8e58004bf8f0bbeab6af1d') in 0.0052891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputControlScheme.cs
+  artifactKey: Guid(92d6890c6702d4891a156d7d30cdbdcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/InputControlScheme.cs using Guid(92d6890c6702d4891a156d7d30cdbdcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8304abf9837a9ae43b2432aec1a3e14b') in 0.005856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.250240 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl@4x.png
+  artifactKey: Guid(e2078613efd9e410c8771cbd2717f4e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl@4x.png using Guid(e2078613efd9e410c8771cbd2717f4e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cf9a754a7595ff907652fb8127b06cc') in 0.0117036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation.png
+  artifactKey: Guid(7fb7b46a8c63948d2b28dc394281bf5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation.png using Guid(7fb7b46a8c63948d2b28dc394281bf5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c9e40c68f93d16b27b1425a4a0efa5e') in 0.0127961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/Layouts/TouchscreenControlPickerLayout.cs
+  artifactKey: Guid(224236193350c244abab484f4514df16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/ControlPicker/Layouts/TouchscreenControlPickerLayout.cs using Guid(224236193350c244abab484f4514df16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7106616a4b029f7358c3ea6f9de35c0') in 0.0072763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/iOS/iOSSupport.cs
+  artifactKey: Guid(635124a90cfbdc64eb3e9c0fc6904aa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/iOS/iOSSupport.cs using Guid(635124a90cfbdc64eb3e9c0fc6904aa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e609fedd1db128f1c917b199cf2e5bdd') in 0.0045223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/Selectors.cs
+  artifactKey: Guid(b98fcf53d54c1fe4abdd9327cf57a371) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/Views/Selectors.cs using Guid(b98fcf53d54c1fe4abdd9327cf57a371) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '546d250c1adf09f7e8f5aaf3a2c5d02c') in 0.0079957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionReferencePropertyDrawer.cs
+  artifactKey: Guid(30bd04fe045c46918b5fe7bc6efc4ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/PropertyDrawers/InputActionReferencePropertyDrawer.cs using Guid(30bd04fe045c46918b5fe7bc6efc4ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ed85504dcaef4d6e0442a4889e530fc') in 0.0049367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/Composites/Vector3Composite.cs
+  artifactKey: Guid(cda1b45d3bda468a95dca208b99174da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Actions/Composites/Vector3Composite.cs using Guid(cda1b45d3bda468a95dca208b99174da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'efd250f544b33c5689e021de25aae199') in 0.0054097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Actions/Interactions/PressInteractionEditor.cs
+  artifactKey: Guid(bb40b2b9ded5942e98788267f3adbc11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Actions/Interactions/PressInteractionEditor.cs using Guid(bb40b2b9ded5942e98788267f3adbc11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8ec35770f993d2232a38a3126b8b907') in 0.0059306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/Processors/AxisDeadzoneProcessor.cs
+  artifactKey: Guid(110e42b335c6744e482ada733cbda674) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/Processors/AxisDeadzoneProcessor.cs using Guid(110e42b335c6744e482ada733cbda674) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8345ecebc99651e10e9c9313d5ff71e7') in 0.004595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Interactive Binding@2x.png
+  artifactKey: Guid(3b78dc1763429489c9a1c70faf4f9a0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Interactive Binding@2x.png using Guid(3b78dc1763429489c9a1c70faf4f9a0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a09c036dbbc203a62ab9248b350a0ce6') in 0.0124195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Mouse.cs
+  artifactKey: Guid(d472007a1b9243feb0043606b73288cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Mouse.cs using Guid(d472007a1b9243feb0043606b73288cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9625cc74a51e20dab191b100ba03e0c5') in 0.0038766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Haptics/GetCurrentHapticStateCommand.cs
+  artifactKey: Guid(0049e966b9953774fa3d07808a5555a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Haptics/GetCurrentHapticStateCommand.cs using Guid(0049e966b9953774fa3d07808a5555a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fff7a3f275dc286122e649c888a47824') in 0.0056571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Events/InputEventListener.cs
+  artifactKey: Guid(07a49c9088e54f1387f3bb8cbbe73e01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Events/InputEventListener.cs using Guid(07a49c9088e54f1387f3bb8cbbe73e01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46f5b21664661d8f3c06de2650dafbab') in 0.0055422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/InputControlExtensions.cs
+  artifactKey: Guid(a8cfbe75f80984c1d9700ef41f6e2aeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/InputControlExtensions.cs using Guid(a8cfbe75f80984c1d9700ef41f6e2aeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c829176d230fda7e3ae8d1bb4b62a24e') in 0.0051654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/HID/HIDParser.cs
+  artifactKey: Guid(a736049645e8c4781aedf679c2ee6be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/HID/HIDParser.cs using Guid(a736049645e8c4781aedf679c2ee6be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99840b5cc271f9f9bb19b2db64325235') in 0.007636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/InputMetrics.cs
+  artifactKey: Guid(b33f51f6a55e541e995b5f6a10498d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/InputMetrics.cs using Guid(b33f51f6a55e541e995b5f6a10498d65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a295f10ad60d2eeb00fd365bd9b49c2') in 0.006392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources/yellow.png
+  artifactKey: Guid(47cf506b4219343519083fe1c0b8fc9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/PackageResources/yellow.png using Guid(47cf506b4219343519083fe1c0b8fc9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '529068e29aa9a858b3b4721d232b2bee') in 0.0125416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/ReactiveProperty.cs
+  artifactKey: Guid(a6f2f33363708814e8530579e2d8cf2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/ReactiveProperty.cs using Guid(a6f2f33363708814e8530579e2d8cf2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67a0c25f33ba7d1af2686c061925a76c') in 0.0047346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/InputActionsEditorConstants.cs
+  artifactKey: Guid(36827be967eb9244b973cbee1bbf53e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/UITKAssetEditor/InputActionsEditorConstants.cs using Guid(36827be967eb9244b973cbee1bbf53e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5b2083a403e9ae1836c3ca55d11465c') in 0.006147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/InputControl.cs
+  artifactKey: Guid(d59a0dc8508f4cf1819f6ba99250cd8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Controls/InputControl.cs using Guid(d59a0dc8508f4cf1819f6ba99250cd8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b46556a472e74fc39e4a7f4461a3dca8') in 0.004759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Stick.png
+  artifactKey: Guid(55040e210fa9b426b861a26909ab4de7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Stick.png using Guid(55040e210fa9b426b861a26909ab4de7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e66dc4028ead1682e4bca0bd63605f30') in 0.0125852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Remote/InputRemoting.cs
+  artifactKey: Guid(f617c1bc34684f738c0d2cb4d0650f35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Remote/InputRemoting.cs using Guid(f617c1bc34684f738c0d2cb4d0650f35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '539158d402c6ad91ebe0e35df10cef93') in 0.0046267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Interactive Binding@4x.png
+  artifactKey: Guid(9e6c9e992a2ee4327bce1d6a8189cedb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Interactive Binding@4x.png using Guid(9e6c9e992a2ee4327bce1d6a8189cedb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69063dd56ba87d8c9e0d380d4977fe0f') in 0.0138678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/BuildPipeline
+  artifactKey: Guid(cb6feb90190641c19dce92f09614edd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/BuildPipeline using Guid(cb6feb90190641c19dce92f09614edd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '977c8195eafe3b78f34b27ac29edfa79') in 0.0050734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Remote
+  artifactKey: Guid(b3be39d9a3c9496a9a619d6dc185f5f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Remote using Guid(b3be39d9a3c9496a9a619d6dc185f5f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f285119132cdc30d5489f1fc3f412c7') in 0.0060992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@4x.png
+  artifactKey: Guid(a940917cc397643afb071010cb2143d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@4x.png using Guid(a940917cc397643afb071010cb2143d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b713bfdb9942be049927b4fbaa166ee') in 0.0103444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
