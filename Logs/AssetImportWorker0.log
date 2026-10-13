@@ -1,11 +1,20 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-danie" at "2026-10-13T10:47:06.3076582Z"
 Built from '6000.3/staging' branch; Version is '6000.3.26f1 (de8167e7440c) revision 14582119'; Using compiler version '194234433'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16011 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
 Date: 2026-10-13T10:47:06Z
+=======
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16024 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-13T11:30:28Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ddomi" at "2026-10-13T11:30:28.1346013Z"
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.26f1\Editor\Unity.exe
@@ -15,25 +24,33 @@ C:\Program Files\Unity\Hub\Editor\6000.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/danie/Desktop/Game Jams/Game Jam 1/GameJam1
+C:/Users/ddomi/Documents/UnityProjs/GameJam1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 55825
 -parentPid
 23412
 -analyticsCloudUserId
 5773538923260
+=======
+51228
+-parentPid
+28804
+-analyticsCloudUserId
+5772526180655
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 -analyticsLocalProjectId
 4f5a4a5b418904b4ca0ef94b7b3dac18
 -editorAnalyticsEnabled
 1
 -cbmEditorLicense
-c58c03d81636e36b634c27399e0893a1b9791864
+9c1d13a226e13871495847157e6a6a60942d3da6
 -cbmMachineId
-ScHmR5Z9pBIPtOdHzpOB8OYvMSk=
+7zb/b5Phhn0OEo6u/aF+Usefdhw=
 -licensingIpc
-LicenseClient-danie
+LicenseClient-ddomi
 -job-worker-count
 7
 -background-job-worker-count
@@ -42,8 +59,8 @@ LicenseClient-danie
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/danie/Desktop/Game Jams/Game Jam 1/GameJam1
-C:/Users/danie/Desktop/Game Jams/Game Jam 1/GameJam1
+Successfully changed project path to: C:/Users/ddomi/Documents/UnityProjs/GameJam1
+C:/Users/ddomi/Documents/UnityProjs/GameJam1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -80,12 +97,21 @@ C:/Users/danie/Desktop/Game Jams/Game Jam 1/GameJam1
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
+<<<<<<< HEAD
 Player connection [10216]  Target information:
 
 Player connection [10216]  * "[IP] 172.30.63.218 [Port] 0 [Flags] 2 [Guid] 1125614826 [EditorId] 1125614826 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9RSPMUUT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [10216] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [10216] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [15092]  Target information:
+
+Player connection [15092]  * "[IP] 172.30.63.249 [Port] 0 [Flags] 2 [Guid] 2169679504 [EditorId] 2169679504 [Version] 1048832 [Id] WindowsEditor(7,AVERYCTUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15092] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15092] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -101,25 +127,36 @@ Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.26f1 (de8167e7440c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/danie/Desktop/Game Jams/Game Jam 1/GameJam1/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ddomi/Documents/UnityProjs/GameJam1/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
     Version:         Direct3D 12 [level 12.2]
-    Renderer:        NVIDIA GeForce RTX 5050 Laptop GPU (ID=0x2d98)
+    Renderer:        NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
     Vendor:          NVIDIA
+<<<<<<< HEAD
     VRAM:            7822 MB
     App VRAM Budget: 7054 MB
     Driver:          32.0.15.7676
+=======
+    VRAM:            7956 MB
+    App VRAM Budget: 7188 MB
+    Driver:          32.0.15.9282
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.3'.
+<<<<<<< HEAD
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-danie"
 [Licensing::IpcConnector] LicenseClient-danie channel disconnected successfully.
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-danie-6000.3.26" at "2026-10-13T10:47:07.6356131Z"
@@ -138,6 +175,34 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.002958 seconds.
 - Loaded All Assemblies, in  0.538 seconds
+=======
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-ddomi"
+[Licensing::IpcConnector] LicenseClient-ddomi channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ddomi-6000.3.26" at "2026-10-13T11:30:29.6063262Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28544, path: "C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              87f25881d75c4baeb6b426073e2d23c4
+  Correlation Id:          96838cd870bf2ca173ac2c69e16f2db4
+  External correlation Id: 2676714463703662447
+  Machine Id:              7zb/b5Phhn0OEo6u/aF+Usefdhw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ddomi-6000.3.26" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ddomi-6000.3.26-notifications" at "2026-10-13T11:30:29.6140324Z"
+[Licensing::Module] Licensing Background thread has ended after 1.48s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5772526180655-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.26f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005302 seconds.
+- Loaded All Assemblies, in  0.541 seconds
+Native extension for UWP target not found
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -145,14 +210,21 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.366 seconds
 Domain Reload Profiling: 896ms
 	BeginReloadAssembly (189ms)
+=======
+- Finished resetting the current domain, in  0.491 seconds
+Domain Reload Profiling: 1030ms
+	BeginReloadAssembly (202ms)
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (59ms)
 	RebuildNativeTypeToScriptingClass (16ms)
 	initialDomainReloadingComplete (66ms)
@@ -174,35 +246,65 @@ Domain Reload Profiling: 896ms
 			BeforeProcessingInitializeOnLoad (83ms)
 			ProcessInitializeOnLoadAttributes (127ms)
 			ProcessInitializeOnLoadMethodAttributes (78ms)
+=======
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (197ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 5773538923260-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.269 seconds
+=======
+- Loaded All Assemblies, in  0.297 seconds
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.392 seconds
 Domain Reload Profiling: 658ms
 	BeginReloadAssembly (168ms)
+=======
+- Finished resetting the current domain, in  0.507 seconds
+Domain Reload Profiling: 802ms
+	BeginReloadAssembly (201ms)
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (25ms)
 	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (10ms)
@@ -230,10 +332,40 @@ Domain Reload Profiling: 658ms
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+=======
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (24ms)
+		LoadAssemblies (123ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (508ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
+<<<<<<< HEAD
 Unloading 419 unused Assets / (56.4 KB). Loaded Objects now: 1015.
 Memory consumption went from 75.8 MB to 75.7 MB.
 Total: 3.378900 ms (FindLiveObjects: 0.073100 ms CreateObjectMapping: 0.028200 ms MarkObjects: 3.142000 ms  DeleteObjects: 0.134900 ms)
@@ -300,10 +432,55 @@ Received Import Request.
   path: Packages/com.unity.ugui/Editor Resources/Shaders/TMP_Properties.cginc
   artifactKey: Guid(3c6c403084eacec478a1129ce20061ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Editor Resources/Shaders/TMP_Properties.cginc using Guid(3c6c403084eacec478a1129ce20061ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc8a04c2dba8761023660c335e924f5e') in 0.0071137 seconds
+=======
+Unloading 419 unused Assets / (140.4 KB). Loaded Objects now: 1015.
+Memory consumption went from 75.7 MB to 75.5 MB.
+Total: 5.311200 ms (FindLiveObjects: 0.106400 ms CreateObjectMapping: 0.029600 ms MarkObjects: 4.913000 ms  DeleteObjects: 0.260700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8697.833628 seconds.
+  path: Packages/com.unity.modules.unitywebrequestwww
+  artifactKey: Guid(dcc8c6e92b172a65719af5ddf47dd968) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.unitywebrequestwww using Guid(dcc8c6e92b172a65719af5ddf47dd968) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddb4e15b508a9076eb4859d488639a15') in 0.0924945 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.modules.vectorgraphics
+  artifactKey: Guid(04c6898809c37620ac863cc2a5d7c4d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.vectorgraphics using Guid(04c6898809c37620ac863cc2a5d7c4d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdcf3d50e84f6e0f93e02a7e78ba73ae') in 0.0191451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.modules.ui
+  artifactKey: Guid(39728903e57c60021f80449a8bbc0096) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.ui using Guid(39728903e57c60021f80449a8bbc0096) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'befb6afcb499ddec8fab3bcaa36f531b') in 0.0159738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.multiplayer.center/Editor/Features
+  artifactKey: Guid(22d3dbf8d488d49d2b1130d698010dee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.multiplayer.center/Editor/Features using Guid(22d3dbf8d488d49d2b1130d698010dee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14402e05eb1916748ec2d6671b974985') in 0.0164093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.unity.modules.accessibility
+  artifactKey: Guid(783ee1c8fd4414848db1be97aacf44fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.accessibility using Guid(783ee1c8fd4414848db1be97aacf44fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f82c51e4be8a788c489e2de9966ef079') in 0.0166632 seconds
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000030 seconds.
   path: Packages/com.unity.ugui/Tests/Runtime/UGUI/EventSystem/RaycastSortingTests.cs
   artifactKey: Guid(0ca2545d76d1fb34fa45a9f1e432d259) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
@@ -348,11 +525,18 @@ Received Import Request.
   path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Util
   artifactKey: Guid(af30a361ab68260438b6ec3fb7e64500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/Util using Guid(af30a361ab68260438b6ec3fb7e64500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bc30be2b60b073f6913e1c6240c46c2') in 0.0036917 seconds
+=======
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.modules.jsonserialize
+  artifactKey: Guid(fc3a810351931f5e6183e16b9beb5563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.jsonserialize using Guid(fc3a810351931f5e6183e16b9beb5563) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '994e53014ed6a38af24a8f4ad52f4404') in 0.0179399 seconds
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
+<<<<<<< HEAD
   path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/ScrollRect.cs
   artifactKey: Guid(1aa08ab6e0800fa44ae55d278d1423e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Runtime/UGUI/UI/Core/ScrollRect.cs using Guid(1aa08ab6e0800fa44ae55d278d1423e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4087ef759921083e597cb2550eb3cb81') in 0.0050592 seconds
@@ -372,10 +556,16 @@ Received Import Request.
   path: Packages/com.unity.ugui/Tests/Runtime
   artifactKey: Guid(c545241cf2e56ec4997d7677f01ef43d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Tests/Runtime using Guid(c545241cf2e56ec4997d7677f01ef43d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8195fa86242f91b8cceece7a53d4e598') in 0.0039662 seconds
+=======
+  path: Packages/com.unity.modules.tilemap
+  artifactKey: Guid(09e28640d754a611467eebfb261ed749) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.tilemap using Guid(09e28640d754a611467eebfb261ed749) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2060a6a58c14411631d1546fdfccdaf0') in 0.0162863 seconds
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000053 seconds.
   path: Packages/com.unity.ugui/Runtime/TMP/TMP_ColorGradient.cs
   artifactKey: Guid(54d21f6ece3b46479f0c328f8c6007e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
@@ -516,10 +706,18 @@ Received Import Request.
   path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout
   artifactKey: Guid(1999349e7f492c947bb6eb70f624382e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout using Guid(1999349e7f492c947bb6eb70f624382e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a17cf373e3319c6aab845122e0a3386') in 0.0044239 seconds
+=======
+  Time since last request: 0.000067 seconds.
+  path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView
+  artifactKey: Guid(eab7f42d361b483aaa760c5909002312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView using Guid(eab7f42d361b483aaa760c5909002312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)Curl error 23: Failure writing output to destination, passed 293 returned 0
+ -> (artifact id: 'd60c9bd07069a25ebe76277956d61655') in 0.2011712 seconds
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000029 seconds.
   path: Packages/com.unity.ugui/Editor/UGUI/UI/GridLayoutGroupEditor.cs
   artifactKey: Guid(6a981cd1456bec84b86e1c66773f57f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
@@ -548,10 +746,157 @@ Received Import Request.
   path: Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs
   artifactKey: Guid(f4688fdb7df04437aeb418b961361dc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs using Guid(f4688fdb7df04437aeb418b961361dc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4144c612e01595ae7ecab5f6cc773cc6') in 0.0102902 seconds
+=======
+  Time since last request: 0.000136 seconds.
+  path: Packages/com.unity.modules.ai
+  artifactKey: Guid(fd871a8be47119612f7c254e96a822b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.ai using Guid(fd871a8be47119612f7c254e96a822b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35cbd6d3ab508c92877f561b93b53790') in 0.0142487 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Packages/com.unity.multiplayer.center/Editor/Recommendations
+  artifactKey: Guid(97646f506bf040e9bd4568124c8b425e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.multiplayer.center/Editor/Recommendations using Guid(97646f506bf040e9bd4568124c8b425e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1663ab8c8db9f4e38b539feab0390d4c') in 0.0143742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.modules.physics2d
+  artifactKey: Guid(376c84ea405e0f2b80562c23bb977216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.physics2d using Guid(376c84ea405e0f2b80562c23bb977216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73b9328f5992aec5b64dcf185266ffb8') in 0.0141876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.modules.unitywebrequestassetbundle
+  artifactKey: Guid(d5f0b0adc6826e9dd3b72e292e8438be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.unitywebrequestassetbundle using Guid(d5f0b0adc6826e9dd3b72e292e8438be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd56be6d64bde92a7e02b769ce8fc44c') in 0.0157729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Packages/com.unity.modules.umbra
+  artifactKey: Guid(9c7c268fa6492449654839df69f2a2f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Packages/com.unity.modules.umbra using Guid(9c7c268fa6492449654839df69f2a2f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c33eda860db39ae55128a4e5a95d0c0c') in 0.0139067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 425 unused Assets / (15.5 KB). Loaded Objects now: 1025.
+Memory consumption went from 76.7 MB to 76.7 MB.
+Total: 4.350600 ms (FindLiveObjects: 0.061000 ms CreateObjectMapping: 0.025100 ms MarkObjects: 4.014900 ms  DeleteObjects: 0.248600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.394320 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Materials/Vase.mat
+  artifactKey: Guid(47299f14c1b775b429931907fa95c55d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Materials/Vase.mat using Guid(47299f14c1b775b429931907fa95c55d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fdf427d04eb38a8b424c7190a9728ae') in 0.0961902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Levels/Demo/Rooms/big.prefab
+  artifactKey: Guid(39e7b4fd76b1f4847bb4eeefb3010a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Levels/Demo/Rooms/big.prefab using Guid(39e7b4fd76b1f4847bb4eeefb3010a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a404c07ca9a1ac88cb3dee56edc06178') in 0.036833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Prefabs/ClosedDoor.prefab
+  artifactKey: Guid(0561cd9f4f076b84aad303c4623399ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Prefabs/ClosedDoor.prefab using Guid(0561cd9f4f076b84aad303c4623399ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eef6c646e064f7cf10d7cfd85683ff78') in 0.0169286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Materials/Default.mat
+  artifactKey: Guid(e3068afe455071742931c3820ad53a34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Materials/Default.mat using Guid(e3068afe455071742931c3820ad53a34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f71ddf76acbfc6adf59d35bb444ab4f') in 0.0166486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Levels/Demo
+  artifactKey: Guid(3fb18de87934fe247ad8ca9bdee83a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Levels/Demo using Guid(3fb18de87934fe247ad8ca9bdee83a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '755d961f8bef8238fc667d1ad46aa11b') in 0.0142643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Prefabs/Wall/DoorLow.fbx
+  artifactKey: Guid(881571f20c9d1c8448b66560a0aa40e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Prefabs/Wall/DoorLow.fbx using Guid(881571f20c9d1c8448b66560a0aa40e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6d125c8756c2669de24786cfffa6ebd') in 0.0836201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Prefabs/StartRoom.prefab
+  artifactKey: Guid(d5efde166617a3543980b8966ac30c24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Prefabs/StartRoom.prefab using Guid(d5efde166617a3543980b8966ac30c24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f4b463f9108cf60a0ef13c822643ccc') in 0.0284834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Torch.prefab
+  artifactKey: Guid(81fa628f2c9971a4c936f830a99757cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Torch.prefab using Guid(81fa628f2c9971a4c936f830a99757cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c05cd76c7a65d2c4f873b1bf4526a6da') in 0.0254903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Scripts/LevelSO.cs
+  artifactKey: Guid(0651eb22174ec8f499275bfe624999b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Scripts/LevelSO.cs using Guid(0651eb22174ec8f499275bfe624999b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19dc4bbf8f55a8c1cdb78a6ef8657189') in 0.0219559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Room-Based Procedural Level Builder v1.0/Prefabs/RoomGeometry/2Corner.fbx
+  artifactKey: Guid(2b864f4ae4a7395449962e1b4e2ca600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder v1.0/Prefabs/RoomGeometry/2Corner.fbx using Guid(2b864f4ae4a7395449962e1b4e2ca600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34a82d21a44da19866230cbbade83109') in 0.0273551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 428 unused Assets / (0.8 MB). Loaded Objects now: 1026.
+Memory consumption went from 78.3 MB to 77.6 MB.
+Total: 7.942100 ms (FindLiveObjects: 0.098400 ms CreateObjectMapping: 0.024400 ms MarkObjects: 6.855400 ms  DeleteObjects: 0.962300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.879170 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Levels
+  artifactKey: Guid(6a062ea5e3f4cfb4786d617d5ef9d46e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Levels using Guid(6a062ea5e3f4cfb4786d617d5ef9d46e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78bba7dae75ded8a1102460abdcf18e3') in 0.0161325 seconds
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000046 seconds.
   path: Packages/com.unity.ugui/Runtime/UGUI/UI/Core/MaskableGraphic.cs
   artifactKey: Guid(976acc75bfafe594cb01142ba21947be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
@@ -773,10 +1118,18 @@ Received Import Request.
   artifactKey: Guid(d51458b261e0ecc4a98904e53924dc1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Editor/UGUI/Properties/AssemblyInfo.cs using Guid(d51458b261e0ecc4a98904e53924dc1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83b6f2ba2612946f526a6d0b0a0a932e') in 0.0240881 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+=======
+  Time since last request: 0.000018 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Prefabs/RoomGeometry/Stairs.fbx
+  artifactKey: Guid(5da778452f855184aacdfe712759c899) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Prefabs/RoomGeometry/Stairs.fbx using Guid(5da778452f855184aacdfe712759c899) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3fc9f8cbc98a5922ffe61f296d69b7e') in 0.0240253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
+<<<<<<< HEAD
   path: Packages/com.unity.ugui/Runtime/TMP/TMP_MeshInfo.cs
   artifactKey: Guid(e21bec35f48a44298911b25ead550ce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Runtime/TMP/TMP_MeshInfo.cs using Guid(e21bec35f48a44298911b25ead550ce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0357701ff512621537ee11e4e5a55f15') in 0.003686 seconds
@@ -989,10 +1342,25 @@ Received Import Request.
   artifactKey: Guid(b6e75d7f429a4e7e9e1ffb4f85cff49f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Runtime/TMP/TMP_LineInfo.cs using Guid(b6e75d7f429a4e7e9e1ffb4f85cff49f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c68560b7f96bd8c09f11e630b015810a') in 0.0051591 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+=======
+  path: Assets/Room-Based Procedural Level Builder/Levels/Demo/Rooms/big.prefab
+  artifactKey: Guid(39e7b4fd76b1f4847bb4eeefb3010a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Levels/Demo/Rooms/big.prefab using Guid(39e7b4fd76b1f4847bb4eeefb3010a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1713bfa898295891b1553dd015729f90') in 0.0189087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Prefabs/RoomGeometry/shortCorridor.fbx
+  artifactKey: Guid(6b96020729ce93f488ec1754c0101dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Prefabs/RoomGeometry/shortCorridor.fbx using Guid(6b96020729ce93f488ec1754c0101dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39c9cd82d6ba6791c963707e25909127') in 0.0212433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
+<<<<<<< HEAD
   path: Packages/com.unity.ugui/Tests/Runtime/UGUI/EventSystem/InputModuleTests/FakeBaseInput.cs
   artifactKey: Guid(138dbec4f8742654fbceb0a19d68b9c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/EventSystem/InputModuleTests/FakeBaseInput.cs using Guid(138dbec4f8742654fbceb0a19d68b9c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1da4995712ac97028e43fc1b748da051') in 0.0039334 seconds
@@ -1100,8 +1468,135 @@ Received Import Request.
   path: Packages/com.unity.ugui/Tests/Editor/UGUI
   artifactKey: Guid(fae3ac1997e164d1eba5fa5c417cbefd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
 Start importing Packages/com.unity.ugui/Tests/Editor/UGUI using Guid(fae3ac1997e164d1eba5fa5c417cbefd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aaab6d6f705bf6e1b22dc02bc6971e7f') in 0.0030207 seconds
+=======
+  path: Assets/Room-Based Procedural Level Builder/Levels/Demo
+  artifactKey: Guid(3fb18de87934fe247ad8ca9bdee83a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Levels/Demo using Guid(3fb18de87934fe247ad8ca9bdee83a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ad336190dc8c90e7ec05f426993c332') in 0.0144509 seconds
+>>>>>>> 347c0be43b51311128c56856cfb6028f45a7240f
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Scripts/DungeonGenerator.cs
+  artifactKey: Guid(bbd93488db370094491f90e7e314d48a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Scripts/DungeonGenerator.cs using Guid(bbd93488db370094491f90e7e314d48a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd24d5911b33adbc86cbcbaf02c98dda6') in 0.0178291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Levels/Demo/Rooms
+  artifactKey: Guid(e2d1756e315ef2944a2951671a8003ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Levels/Demo/Rooms using Guid(e2d1756e315ef2944a2951671a8003ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33738762cf2996181f097ea0b049a11b') in 0.0133416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Materials/Sarcophagus.mat
+  artifactKey: Guid(19bc5007b7a2e354a95ba52536314b85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Materials/Sarcophagus.mat using Guid(19bc5007b7a2e354a95ba52536314b85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe08bb5c9a464629f1455a020412b63f') in 0.0141809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Prefabs
+  artifactKey: Guid(1db006d6a78707346ade00887056184a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Prefabs using Guid(1db006d6a78707346ade00887056184a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44f36682d7e91c340fd217b946a92ff1') in 0.0154172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Prefabs/Wall/WallWithDoorLow.fbx
+  artifactKey: Guid(a299c57c99ccc284e9434b785c58eb98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Prefabs/Wall/WallWithDoorLow.fbx using Guid(a299c57c99ccc284e9434b785c58eb98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84ac827efd14d2f7e8a70310d3500ea5') in 0.0194982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Scripts/EntryPoint.cs
+  artifactKey: Guid(0fd8fd69996345247a31a1bf666ba426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Scripts/EntryPoint.cs using Guid(0fd8fd69996345247a31a1bf666ba426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cda8c6ea9689059cf0cc66f0023c13b2') in 0.0160349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Prefabs/ItemSpawn.prefab
+  artifactKey: Guid(723a6cc5ee48d4a4d899b7744db96fd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Prefabs/ItemSpawn.prefab using Guid(723a6cc5ee48d4a4d899b7744db96fd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '094b5929170206898ce9ae6f4f9ce050') in 0.0166204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Scripts/Demo
+  artifactKey: Guid(570b09a9238b2e14bbdddb99426bf872) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Scripts/Demo using Guid(570b09a9238b2e14bbdddb99426bf872) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7de2ef2315ca5ac926a58e4041480fe') in 0.0155927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Levels/Demo/Rooms/Hallways/stairs.prefab
+  artifactKey: Guid(4a3ae9fc39138804db8afbb8f5f38b0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Levels/Demo/Rooms/Hallways/stairs.prefab using Guid(4a3ae9fc39138804db8afbb8f5f38b0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffff3c52c24a04267da70f0fc6a86889') in 0.0169703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Scripts/Demo/demoGenerationScript.cs
+  artifactKey: Guid(28a17b0da0b558e44b446052a02e43b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Scripts/Demo/demoGenerationScript.cs using Guid(28a17b0da0b558e44b446052a02e43b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5b5edf2368d1396966e7c676c0f9fd7') in 0.0215469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Levels/Demo/Rooms/2_corner.prefab
+  artifactKey: Guid(040be616a317e0743afd1e135de1cfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Levels/Demo/Rooms/2_corner.prefab using Guid(040be616a317e0743afd1e135de1cfc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cc3f190526be613a473248c9d012f80') in 0.016085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Prefabs/walldoor.prefab
+  artifactKey: Guid(4880cb881d4a71b47b29c9da22febc7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Prefabs/walldoor.prefab using Guid(4880cb881d4a71b47b29c9da22febc7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4be6299b25706f8293c87b0accabf138') in 0.0134243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Demo Scene.unity
+  artifactKey: Guid(5444b2873c32a6842ac1a1516fc83f2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Room-Based Procedural Level Builder/Demo Scene.unity using Guid(5444b2873c32a6842ac1a1516fc83f2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83c765c25ad71f930ce0559016bf31b9') in 0.0147712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.942817 seconds.
+  path: Assets/Room-Based Procedural Level Builder/Materials/Sarcophagus.mat
+  artifactKey: Guid(19bc5007b7a2e354a95ba52536314b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room-Based Procedural Level Builder/Materials/Sarcophagus.mat using Guid(19bc5007b7a2e354a95ba52536314b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec5c10c8a866dce292f2d487f7a5de81') in 0.0981469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 424 unused Assets / (0.7 MB). Loaded Objects now: 1064.
+Memory consumption went from 79.1 MB to 78.3 MB.
+Total: 5.909400 ms (FindLiveObjects: 0.078700 ms CreateObjectMapping: 0.019300 ms MarkObjects: 5.196200 ms  DeleteObjects: 0.613600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
