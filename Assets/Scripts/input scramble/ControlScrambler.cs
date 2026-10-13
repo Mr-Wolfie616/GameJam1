@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ControlScrambler : MonoBehaviour
 {
@@ -46,7 +47,14 @@ public class ControlScrambler : MonoBehaviour
         CancelInvoke(nameof(ResetControls));
         if (!_permanent) Invoke(nameof(ResetControls), _scrambleDuration);
     }
-
+    // TEMP: press T to test scrambling until health is in
+private void Update()
+{
+    if (Keyboard.current != null && Keyboard.current.tKey.wasPressedThisFrame)
+    {
+        Scramble();
+    }
+}
     public void ResetControls()
     {
         _swapAxes = false;

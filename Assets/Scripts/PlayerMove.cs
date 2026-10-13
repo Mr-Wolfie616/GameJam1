@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -9,7 +10,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] private MovementSettings _settings;
     [SerializeField] private InputActionReference _moveAction;
     [SerializeField] private Transform _camera;
-
+    [SerializeField] private ControlScrambler _scrambler;
 
     private const float GroundedPush = -2f;
 
@@ -29,6 +30,7 @@ public class PlayerMove : MonoBehaviour
     {
         _controller = GetComponent<CharacterController>();
         if (_camera == null) _camera = Camera.main.transform;
+        if (_scrambler == null) _scrambler = GetComponent<ControlScrambler>();
     }
 
     private void OnEnable() => _moveAction.action.Enable();
@@ -47,13 +49,15 @@ public class PlayerMove : MonoBehaviour
 
         _controller.Move((_horizontalVelocity + Vector3.up * _verticalVelocity) * Time.deltaTime);
 
-        if (_isLaunched && _controller.isGrounded) _isLaunched = false; 
+        if (_isLaunched && _controller.isGrounded) _isLaunched = false;
+         
     }
 
 // Update the horizontal velocity based on player input and movement settings
     private void UpdateWalking()
     {
         Vector2 input = _moveAction.action.ReadValue<Vector2>();
+        if (_scrambler != null) input = _scrambler.ApplyScramble(input);
         Vector3 targetVelocity = CameraRelative(input) * _settings.MoveSpeed;
 
         _horizontalVelocity = Vector3.MoveTowards(_horizontalVelocity, targetVelocity, _settings.Acceleration * Time.deltaTime);
